@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Repaso_1erParcial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_03">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_03"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_03/fast">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_03/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_04">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_04"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_04/fast">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_04/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_02">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_02"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_02/fast">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_02/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_01">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_01"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej_01/fast">
+				<Option output="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Ej_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej_01/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alumno/Escritorio/Repaso-1erParcial/Ej_01/eliminaListaPorPila.h">
+			<Option target="Ej_01"/>
+		</Unit>
+		<Unit filename="/home/alumno/Escritorio/Repaso-1erParcial/Ej_01/main.cpp">
+			<Option target="Ej_01"/>
+		</Unit>
+		<Unit filename="/home/alumno/Escritorio/Repaso-1erParcial/Ej_02/main.cpp">
+			<Option target="Ej_02"/>
+		</Unit>
+		<Unit filename="/home/alumno/Escritorio/Repaso-1erParcial/Ej_03/main.cpp">
+			<Option target="Ej_03"/>
+		</Unit>
+		<Unit filename="/home/alumno/Escritorio/Repaso-1erParcial/Ej_04/main.cpp">
+			<Option target="Ej_04"/>
+		</Unit>
+		<Unit filename="/home/alumno/Escritorio/Repaso-1erParcial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
