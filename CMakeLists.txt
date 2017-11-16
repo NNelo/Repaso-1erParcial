@@ -3,6 +3,9 @@ project(Repaso_1erParcial)
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(SOURCE_FILES_00 ED/Cola.h ED/Lista.h ED/Nodo.h ED/Pila.h ED/main.cpp ED/main.cpp)
+add_executable(ED ${SOURCE_FILES_00})
+
 set(SOURCE_FILES_01 Ej_01/main.cpp Ej_01/eliminaListaPorPila.h)
 add_executable(Ej_01 ${SOURCE_FILES_01})
 

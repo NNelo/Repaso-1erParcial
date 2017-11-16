@@ -1,6 +1,7 @@
-/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_03.dir
-/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_04.dir
-/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_02.dir
-/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_01.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_03.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_04.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_02.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Ej_01.dir
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/ED.dir

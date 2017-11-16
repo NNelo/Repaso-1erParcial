@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/alumno/Descargas/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/nelon/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/alumno/Descargas/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/nelon/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alumno/Escritorio/Repaso-1erParcial
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/alumno/Descargas/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/nelon/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/alumno/Descargas/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/nelon/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles /home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles /cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,6 +161,46 @@ Ej_01: cmake_check_build_system
 Ej_01/fast:
 	$(MAKE) -f CMakeFiles/Ej_01.dir/build.make CMakeFiles/Ej_01.dir/build
 .PHONY : Ej_01/fast
+
+#=============================================================================
+# Target rules for targets named ED
+
+# Build rule for target.
+ED: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ED
+.PHONY : ED
+
+# fast build rule for target.
+ED/fast:
+	$(MAKE) -f CMakeFiles/ED.dir/build.make CMakeFiles/ED.dir/build
+.PHONY : ED/fast
+
+ED/main.o: ED/main.cpp.o
+
+.PHONY : ED/main.o
+
+# target to build an object file
+ED/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ED.dir/build.make CMakeFiles/ED.dir/ED/main.cpp.o
+.PHONY : ED/main.cpp.o
+
+ED/main.i: ED/main.cpp.i
+
+.PHONY : ED/main.i
+
+# target to preprocess a source file
+ED/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ED.dir/build.make CMakeFiles/ED.dir/ED/main.cpp.i
+.PHONY : ED/main.cpp.i
+
+ED/main.s: ED/main.cpp.s
+
+.PHONY : ED/main.s
+
+# target to generate assembly for a file
+ED/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ED.dir/build.make CMakeFiles/ED.dir/ED/main.cpp.s
+.PHONY : ED/main.cpp.s
 
 Ej_01/main.o: Ej_01/main.cpp.o
 
@@ -282,6 +322,10 @@ help:
 	@echo "... Ej_04"
 	@echo "... Ej_02"
 	@echo "... Ej_01"
+	@echo "... ED"
+	@echo "... ED/main.o"
+	@echo "... ED/main.i"
+	@echo "... ED/main.s"
 	@echo "... Ej_01/main.o"
 	@echo "... Ej_01/main.i"
 	@echo "... Ej_01/main.s"

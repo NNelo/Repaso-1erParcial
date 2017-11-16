@@ -16,7 +16,8 @@ private:
 public:
     Nodo(T dato, Nodo<T> *next) : dato(dato), next(next) {}
 
-    Nodo(T dato) : dato(dato) {
+    Nodo(T dato) {
+        dato(dato);
         this->next = NULL;
     }
 

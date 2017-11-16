@@ -61,23 +61,12 @@ Lista<T>::Lista() {
  */
 template<class T>
 Lista<T>::Lista(const Lista<T> &li) {
-    inicio = new Nodo<T>();
+    this->inicio = NULL;
+    Nodo<T> *aux = li.inicio;
 
-    Nodo<T> *auxli = li.inicio;
-    Nodo<T> *auxnn = inicio;
-
-    while (auxli != NULL) {
-//        this->insertarUltimo(auxli->getDato());
-//        auxli = auxli->getNext();
-
-//        auxnn->setDato(auxli->getDato());
-        Nodo<T> *newNode = new Nodo<T>;
-        auxnn->setDato(auxli->getDato());
-
-        auxnn->setNext(newNode);
-
-        auxnn = auxnn->getNext();
-        auxli = auxli->getNext();
+    while (aux != NULL) {
+        this->insertarUltimo(aux->getDato());
+        aux = aux->getNext();
     }
 }
 
@@ -300,14 +289,26 @@ void Lista<T>::insertAfter2(T oldValue, int n, T newValue) {
 template<class T>
 void Lista<T>::moverAlPrincipio(T valor) {
     Nodo<T> *aux = inicio;
+    Nodo<T> *anteriorAux = aux;
+
+    if (inicio->getDato() == valor)
+        return;
+    // si ya es el primero está todo hecho.
+
     while (aux != NULL && aux->getDato() != valor) {
-        aux = aux->getDato();
+        anteriorAux = aux;
+        aux = aux->getNext();
     }
     if (aux == NULL)
         throw -1;
 
-    T aux = aux->getDato();
+//    T valorAux = aux->getDato();
 
+    Nodo<T> *nn = new Nodo<T>(valor, inicio);
+    inicio = nn;
+
+    anteriorAux = aux->getNext();
+    delete aux;
 }
 
 #endif //LISTA_H

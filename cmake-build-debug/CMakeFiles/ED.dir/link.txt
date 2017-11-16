@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/ED.dir/ED/main.cpp.o  -o ED.exe -Wl,--out-implib,libED.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

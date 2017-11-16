@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Ej_01.dir/Ej_01/main.cpp.o  -o Ej_01 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Ej_01.dir/Ej_01/main.cpp.o  -o Ej_01.exe -Wl,--out-implib,libEj_01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

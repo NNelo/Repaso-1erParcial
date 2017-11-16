@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Ej_04.dir/Ej_04/main.cpp.o"
   "Ej_04.pdb"
-  "Ej_04"
+  "Ej_04.exe"
+  "libEj_04.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

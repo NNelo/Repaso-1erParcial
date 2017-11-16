@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Repaso_1erParcial.dir/main.cpp.o  -o Repaso_1erParcial 

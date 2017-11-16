@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/ED/Lista.h
+Nodo.h
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/ED/Nodo.h
+
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/ED/Nodo.h
+iostream
+-
+
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/Ej_04/main.cpp
+iostream
+-
+../ED/Lista.h
+/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/ED/Lista.h
+

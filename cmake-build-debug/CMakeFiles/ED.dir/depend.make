@@ -1,2 +1,2 @@
-# Empty dependencies file for Repaso_1erParcial.
+# Empty dependencies file for ED.
 # This may be replaced when dependencies are built.

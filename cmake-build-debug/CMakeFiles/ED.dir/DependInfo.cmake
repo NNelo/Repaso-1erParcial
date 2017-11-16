@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alumno/Escritorio/Repaso-1erParcial/main.cpp" "/home/alumno/Escritorio/Repaso-1erParcial/cmake-build-debug/CMakeFiles/Repaso_1erParcial.dir/main.cpp.o"
+  "/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/ED/main.cpp" "/cygdrive/c/Users/nelon/Desktop/Repaso-1erParcial/cmake-build-debug/CMakeFiles/ED.dir/ED/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
